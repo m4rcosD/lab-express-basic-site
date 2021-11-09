@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+.top{
+    font-family: 'Jura', sans-serif;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top > ul{
+    display: flex;
+    font-size: 23px;
+flex-direction: row;
+justify-content: space-evenly;
+width: 35%;
+list-style: none;
+}
+.top > img{
+    width:  80px;
+    height: auto;
+    align-items: center;
+    padding-left: 10px;
+}
+.music4Everyone{
+    font-family: 'Roboto', sans-serif; 
+    background-image: url("./background1.png");
+    font-size: 65px;
+
+    background-size: 100%;
+    background-position: center;
+    height: 950px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about{
+    background-image: url("background2.png");
+    font-size: 35px;
+    background-size: 100%;
+    background-position: center;
+    height: 950px;
+    color:rgb(218, 255, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.works{
+    background-image: url("background2.png");
+    font-size: 35px;
+    background-size: 100%;
+    background-position: center;
+    height: 950px;
+  color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
